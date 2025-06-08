@@ -64,6 +64,11 @@ data/
 3. **Speech Classification**: Separate speech from noise using acoustic features
 4. **Normalization**: Standardize sample rate and amplitude
 
+# Dataset creation
+
+> **📋 For detailed dataset setup instructions, see [Dataset Creation Guide](dataset-creation.md)**  
+> *Complete step-by-step guide for downloading, processing, and organizing audio datasets*
+
 ##  Quick Start
 
 
@@ -163,6 +168,9 @@ LAMBDA_DEC = 1.0           # Message decoding accuracy
 ##  Utilities and Scripts
 
 ### Dataset Creation
+> **📋 See [Dataset Creation Guide](dataset-creation.md) for complete setup instructions**
+
+Key scripts:
 - `dataset_creation/1_sec_files.py`: Convert long audio files to 1-second segments
 - `dataset_creation/select_audios.py`: Filter and curate audio datasets
 - `dataset_creation/subset.py`: Create training/validation splits
